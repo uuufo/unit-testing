@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ParameterTestTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.092 s <<< FAILURE! - in ParameterTestTest
+ParameterTestTest.multiply([I)  Time elapsed: 0.04 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <15> but was: <8>
+	at ParameterTestTest.multiply(ParameterTestTest.java:19)
+
+ParameterTestTest.multiply([I)  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <30> but was: <31>
+	at ParameterTestTest.multiply(ParameterTestTest.java:19)
+
+ParameterTestTest.multiply([I)  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <50>
+	at ParameterTestTest.multiply(ParameterTestTest.java:19)
+
